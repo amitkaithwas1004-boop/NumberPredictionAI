@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Import the corrected NumberPredictionAI class
 try:
-    from models.predictor import NumberPredictionAI
+    from predictor import NumberPredictionAI
 except ImportError:
     print("❌ Could not import NumberPredictionAI. Make sure predictor.py is in the same directory.")
     sys.exit(1)
@@ -138,4 +138,5 @@ def main():
         print("👋 Application terminated")
 
 if __name__ == "__main__":
+
     main()
