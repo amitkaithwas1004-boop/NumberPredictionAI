@@ -1,0 +1,16 @@
+{
+  "api_token": "5af6646f-ff66-4f2d-8358-0b074f97f1c8",
+  "api_base_url": "https://api.mac88.com/api/v1/core",
+  "operator_id": "machub",
+  "partner_id": "GAPINR",
+  "game_id": "VGCWI101",
+  "table_id": "VTGCWI101",
+  "provider_id": "MAC88",
+  "model_dir": "./model_checkpoints",
+  "seq_length": 5,
+  "initial_balance": 1000,
+  "risk_factor": 0.3,
+  "update_interval": 30,
+  "initial_data_count": 50,
+  "retrain_interval": 50
+}
